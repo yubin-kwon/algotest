@@ -14,3 +14,5 @@ for i in range(len(array)):
     #array[i]=tmp
     
 print(array)
+
+#삽입 정렬의 경우 정렬이 거의 다 된 상태에서 진행할때 효율적

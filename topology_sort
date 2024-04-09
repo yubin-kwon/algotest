@@ -12,7 +12,7 @@ for _ in range(e):
     a,b=map(int, input().split())
     graph[a].append(b) #A에서 B로 이동 가능함.
     #진입차수를 1 증가
-    indrgree[b]+=1
+    indergree[b]+=1
 
 #위상정렬 함수
 def topology_sort():
